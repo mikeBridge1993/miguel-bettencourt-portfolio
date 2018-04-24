@@ -1,0 +1,25 @@
+footer{
+    -webkit-animation: moveInBottom 1s ease-out; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: moveInBottom 1s ease-out; /* Firefox < 16 */
+    -ms-animation: moveInBottom 1s ease-out; /* Internet Explorer */
+    animation: moveInBottom 1s ease-out;
+    
+  height: 50px;
+  i {
+    color: black;
+    
+  }
+  a {
+    display: flex;
+    justify-content: center;
+    margin-right:30px;
+    &:last-child{
+      margin-right:0;
+    }
+
+  }
+}
+
+.content {
+  min-height: calc(100vh - 50px);
+}
